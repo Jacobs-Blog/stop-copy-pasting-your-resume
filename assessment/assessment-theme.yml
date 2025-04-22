@@ -1,0 +1,63 @@
+extends: default
+
+font:
+  catalog:
+    merge: true
+    Aptos:
+      normal: Aptos.ttf
+      italic: Aptos-Italic.ttf
+      bold: Aptos-Bold.ttf
+      bold_italic: Aptos-Bold-Italic.ttf
+
+code:
+  font_family: Aptos
+  font-size: 8
+
+base:
+  font-family: Aptos 
+  font-size: 10
+
+page:
+  margin: [2.45cm, 3.17cm, 2.45cm, 3.17cm]
+  background_color: ffffff
+  layout: portrait
+  size: A4
+
+title_page:
+  align: right
+  logo:
+    top: 10%
+  title:
+    top: 80%
+    font_size: $heading_h1_font_size
+    font_color: #7f7e7d
+    line_height: 1.1
+  subtitle:
+    font_size: $heading_h3_font_size
+    line_height: 1.1
+  authors:
+    margin_top: $base_font_size * 1.25
+    font_size: $base_font_size_large
+  revision:
+    margin_top: $base_font_size * 1.25
+
+footer:
+  height: 60
+  font-size: 10
+  border-color: #F46C2C
+  border-width: 0.25
+
+  recto:
+    center:
+      content: 'DocuForge - Technical Assessment - {revnumber}'
+    right:
+      content: "{page-number}/{page-count}"
+    left: 
+      content: image:./images/docuforge-logo.jpg[logo, 20]
+  verso:
+    center:
+      content: 'DocuForge - Technical Assessment - {revnumber}'
+    left: 
+      content: image:./images/docuforge-logo.jpg[logo, 20]
+    right:
+      content: "{page-number}/{page-count}"

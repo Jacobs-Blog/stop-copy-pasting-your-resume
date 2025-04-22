@@ -1,0 +1,94 @@
+:linkedin: https://www.linkedin.com/in/john-doe
+:github: https://github.com/example-user
+
+= Curriculum vitae
+
+== Personal details
+
+[cols="30,60,>.^~", grid="none", frame="none"]
+|===
+|Name:
+s|John Doe
+.8+a|image::john-doe.jpeg[align='right', pdfwidth="120"]
+
+|Address:
+|4212 Sycamore Lane +
+Spring Hill, IL 60543 +
+United States
+
+|Date of birth:
+|1980-01-01
+
+|Telephone:
+|+1 (312) 555-0198
+
+|Email:
+|john.doe@example.com
+
+|LinkedIn:
+|{linkedin}
+
+|Blog:
+|https://blog.duijzer.com
+
+|GitHub:
+|{github}
+|===
+
+== Professional summary
+
+Versatile and detail-oriented software engineer with over 20 years of experience in backend development, developer tooling, and technical documentation. Proven track record of delivering scalable systems and streamlining team workflows across fast-paced, high-growth environments.
+
+Recognized internally as the “documentation whisperer,” John pioneered the use of AsciiDoc within multiple engineering teams, transforming messy, inconsistent documentation into clean, version-controlled assets. His work enabled automated resume pipelines, candidate assessment delivery, and internal policy generation—earning him the prestigious “Least Likely to Open Word” award three years running.
+
+Passionate about clean architecture, developer experience, and the power of well-structured text.
+
+== Skills
+
+[cols="1,1,1", options="header"]
+|===
+| Skill / Tool       | Proficiency         | Notes
+
+| AsciiDoc           | Expert              | Automated workflows, PDF pipelines, modular docs
+| Git                | Expert              | Daily use, branching strategies, GitOps practices
+| Python             | Advanced            | Backend scripting, automation, report generation
+| Java               | Advanced            | Legacy systems, Spring Boot, enterprise APIs
+| Docker             | Advanced            | Local dev environments, CI pipelines
+| Kubernetes         | Intermediate        | Helm, deployments, config management
+| Markdown           | Advanced            | Used before converting team to AsciiDoc 😄
+| LaTeX              | Basic               | Only when forced
+| CI/CD (GitHub Actions, Jenkins) | Advanced | Automated testing, deployment, doc builds
+| Confluence         | Advanced            | Automated uploads, integrated with hiring workflows
+|===
+
+== Experience
+
+*Senior Software Engineer*, RocketTech Inc. (2020 – Present)  
+- Led the migration to AsciiDoc-based workflows across the engineering team  
+- Developed automated systems to generate PDF-based assessments and upload them to Confluence  
+- Contributed to internal DevEx tooling for documentation-as-code  
+
+*Technical Consultant*, DevWare Solutions (2015 – 2020)  
+- Designed backend APIs for enterprise clients in healthcare and logistics  
+- Introduced lightweight tooling using Python and Markdown (later transitioned to AsciiDoc)  
+- Provided documentation coaching and templates for client delivery teams  
+
+*Software Engineer*, CodeWorks Inc. (2008 – 2015)  
+- Worked on monolithic and early microservice Java applications  
+- Maintained legacy LaTeX-based documentation systems before replacing them with AsciiDoc  
+
+== Education
+
+Bachelor of Science in Computer Science  
+University of Illinois, Urbana-Champaign – 2004
+
+== Certifications
+
+- Certified Kubernetes Administrator (CKA) – 2021  
+- GitHub Actions Advanced Practitioner – 2022  
+- Docker for Developers – 2020
+
+== Open Source & Community
+
+- Maintainer of `asciidoc-starter-kit`: a boilerplate for resumé and document automation  
+- Occasional speaker at local DevOps meetups on documentation workflows

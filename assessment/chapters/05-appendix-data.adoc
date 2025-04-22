@@ -1,0 +1,28 @@
+[appendix]
+== Data
+
+The following JSON structure contains sample data that you may use during the assessment.  
+You are free to load, transform, or process this data in any way you see fit.  
+The goal is to demonstrate your ability to work with external datasets in a structured and reusable way.
+
+[source,json]
+----
+{
+  "candidates": [
+    {
+      "id": "001",
+      "name": "Jane Doe",
+      "position": "Backend Developer",
+      "experience": 5,
+      "skills": ["Java", "Spring Boot", "PostgreSQL"]
+    },
+    {
+      "id": "002",
+      "name": "Alex Smith",
+      "position": "Frontend Developer",
+      "experience": 3,
+      "skills": ["React", "TypeScript", "CSS"]
+    }
+  ]
+}
+----

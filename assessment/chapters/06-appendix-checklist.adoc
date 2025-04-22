@@ -1,0 +1,21 @@
+[appendix]
+== Assessment Checklist
+
+The following checklist shows the key elements we look for when reviewing your submission.  
+Not all items need to be perfect—we’re primarily interested in your approach, attention to detail, and how you work with structured content.
+
+[cols="1,2", options="header"]
+|===
+| ✓ | Requirement
+
+| pass:[☐] | The resumé is written in AsciiDoc
+| pass:[☐] | The AsciiDoc is valid and renders without errors
+| pass:[☐] | The PDF output looks clean and professional
+| pass:[☐] | Sections are well-structured and logically ordered
+| pass:[☐] | Attributes, includes, or reusable patterns are used
+| pass:[☐] | Grammar and spelling are checked
+| pass:[☐] | Optional data (e.g., JSON) is referenced or used effectively
+| pass:[☐] | The submission instructions were followed correctly
+|===
+
+NOTE: This checklist is for internal use, but you’re welcome to use it for a final self-check before submitting.

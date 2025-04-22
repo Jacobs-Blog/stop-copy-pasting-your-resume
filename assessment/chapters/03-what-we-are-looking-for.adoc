@@ -1,0 +1,11 @@
+[[section-looking-for]]
+== What We Are Looking For
+
+We are not grading you on graphic design. Instead, we're looking at:
+
+- How clearly you structure your content
+- How well you understand and use AsciiDoc features
+- Attention to detail and consistency
+- Whether the final PDF looks clean and professional
+
+It’s okay if you’ve never used AsciiDoc before—part of the challenge is figuring out how to use it. You can find resources and documentation at https://asciidoctor.org.

@@ -1,0 +1,66 @@
+:linkedin: https://www.linkedin.com/in/john-doe
+:github: https://github.com/example-user
+
+= John Doe
+
+[.contact-block]
+Document Engineer +
+icon:phone[] +1 (312) 555-0198 icon:envelope[] john.doe@example.com icon:link[] {linkedin} 
+icon:map-marker[] Spring Hill, CA, USA
+
+[cols="58%,4%,38%", frame=none, grid=none]
+|===
+a|
+== Summary
+
+Builder of systems and smoother of processes, both in code and documentation.
+Believes great tooling beats great formatting—and AsciiDoc proves it.
+
+== Experience
+
+Senior Software Engineer
+RocketTech Inc. · 2020–Present
+	•	Introduced AsciiDoc-based workflows for resume and assessment automation
+	•	Built internal tools for developer onboarding and documentation pipelines
+
+Technical Consultant
+DevWare Solutions · 2015–2020
+	•	Delivered backend systems for enterprise clients using Java and Python
+	•	Helped teams transition from Markdown to AsciiDoc for structured documentation
+
+Software Engineer
+CodeWorks Inc. · 2008–2015
+	•	Maintained and modernized legacy systems
+	•	Led internal tooling improvements and documentation cleanup efforts
+
+a|
+
+a|
+== Strengths
+
+*Documentation Automation* – Turns documents into versioned, repeatable workflows using AsciiDoc and Git.
+ 
+*Developer Experience* – Builds tools and processes that simplify work and reduce friction.
+
+== Languages
+
+* English: Native
+* Spanish: Advanced
+
+== Tools & Skills
+
+* Asciidoc 
+* Git 
+* CI/CD (Github Actions)
+
+== Personal
+
+* Enjoys long talks
+* Coffee enthusiast
+* Loves building things with LEGO
+
+|===
+
+== Most Proud Of
+
+Building a fully automated documentation workflow that transformed the way his team creates and shares technical assessments, resumes, and internal docs—turning scattered files and formatting chaos into a consistent, version-controlled system that just works.

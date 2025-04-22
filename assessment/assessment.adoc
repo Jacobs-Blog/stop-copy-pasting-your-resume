@@ -1,0 +1,46 @@
+:doctype: book 
+:author: Author(s): Samantha Blake - Talent Aquisition Partner
+:email: careers@example.com
+:revdate: {docdate}
+:revnumber: v1.2
+:copyright: DocuForge
+
+:title-page:
+:title-logo-image: image:docuforge-logo.jpg[pdfwidth=3.5in,align=center]
+
+:toc:
+:numbered:
+:!chapter-signifier:
+:pdf-page-size: A4
+:pdf-fontsdir: ./fonts
+:pdf-themesdir: ./
+:pdf-theme: assessment
+:imagesdir: images
+:hide-uri-scheme:
+:experimental:
+
+= Technical Assessment: Write Your Resumé in AsciiDoc
+
+<<<
+
+include::chapters/01-introduction.adoc[]
+
+<<<
+
+include::chapters/02-the-assessment.adoc[]
+
+<<<
+
+include::chapters/03-what-we-are-looking-for.adoc[]
+
+<<<
+
+include::chapters/04-how-to-submit.adoc[]
+
+<<<
+
+include::chapters/05-appendix-data.adoc[]
+
+<<<
+
+include::chapters/06-appendix-checklist.adoc[]

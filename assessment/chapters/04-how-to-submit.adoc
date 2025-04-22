@@ -1,0 +1,15 @@
+[[section-how-to-submit]]
+== How To Submit
+
+Please submit both of the following:
+
+1. Your AsciiDoc source file (`resume.adoc`)
+2. The rendered PDF (`resume.pdf`)
+
+You can either:
+- Upload both files via the submission link we sent you, **or**
+- Push them to a public GitHub repo and share the link with us
+
+If you get stuck, just let us know. We’re not expecting perfection—just insight into how you approach writing and tooling.
+
+Thanks again, and good luck!

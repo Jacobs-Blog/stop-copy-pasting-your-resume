@@ -1,0 +1,15 @@
+[[section-assessment]]
+== The Assessment
+
+Your task is simple:  
+Write your own resumé using AsciiDoc and generate a PDF version of it.
+
+Please include at least the following sections:
+
+- Your name and contact information
+- A short professional summary (2–3 lines)
+- A list of relevant tools or technologies
+- Your professional experience (jobs, internships, or relevant projects)
+- Education
+
+You are free to style it however you like using AsciiDoc’s built-in formatting features (e.g., tables, lists, callouts, attributes). Bonus points for using reusable patterns like includes or variables.

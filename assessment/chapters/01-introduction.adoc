@@ -1,0 +1,7 @@
+[[section-introduction]]
+== Introduction
+
+Thanks for your interest in joining our team!  
+We care deeply about clean code *and* clear communication. Documentation is part of our everyday work—whether it’s for internal tools, onboarding guides, or candidate assessments like this one.
+
+This assignment is meant to give us a sense of how you approach structure, clarity, and tooling.
