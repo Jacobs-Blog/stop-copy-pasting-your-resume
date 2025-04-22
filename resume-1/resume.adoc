@@ -1,5 +1,6 @@
 :linkedin: https://www.linkedin.com/in/john-doe
-:github: https://github.com/example-user
+:github: https://github.com/john-doe
+:blog: https://blog.john-doe.com
 
 = Curriculum vitae
 
@@ -29,7 +30,7 @@ United States
 |{linkedin}
 
 |Blog:
-|https://blog.duijzer.com
+|{blog}
 
 |GitHub:
 |{github}
