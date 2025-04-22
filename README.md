@@ -1,6 +1,6 @@
 # Stop Copy-Pasting Your Resumé (and Everything Else)
 
-A repository with AsciiDoc examples, to be used as examples in a blog post about AsciiDoc.
+A repository with AsciiDoc examples, to be used as examples in a blog post about AsciiDoc. All examples are generated with an automated GitHub Action, and published as a release. You can see the real examples at the releases page.
 
 ## Examples
 
