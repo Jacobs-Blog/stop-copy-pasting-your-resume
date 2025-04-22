@@ -23,18 +23,17 @@ jobs:
       - name: Generate resume
         uses: tonynv/asciidoctor-action@v2
         with:
-          program: generate-pdf.sh
-          working-directory: ./resume-1
+          program: generate.sh
 
       - name: Generate one-pager
         uses: tonynv/asciidoctor-action@v2
         with:
-          program: "./resume-2/generate-pdf.sh"
+          program: "./resume-2/generate.sh"
 
       - name: Generate assessment
         uses: tonynv/asciidoctor-action@v2
         with:
-          program: "./assessment/generate-pdf.sh"
+          program: "./assessment/generate.sh"
 
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
