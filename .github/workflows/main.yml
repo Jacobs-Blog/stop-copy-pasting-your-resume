@@ -1,0 +1,48 @@
+name: Publish example documents
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Generate version
+        run: echo "VERSION=$(date +'%Y-%m-%d-%H%M%S')" >> $GITHUB_ENV
+        
+      - name: Print version
+        run: echo "${{ env.VERSION }}"
+
+      - name: Generate resume
+        uses: tonynv/asciidoctor-action@v2
+        with:
+          program: "./resume-1/generate-pdf.sh"
+
+      - name: Generate one-pager
+        uses: tonynv/asciidoctor-action@v2
+        with:
+          program: "./resume-2/generate-pdf.sh"
+
+      - name: Generate assessment
+        uses: tonynv/asciidoctor-action@v2
+        with:
+          program: "./assessment/generate-pdf.sh"
+
+      - uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "v${{ env.VERSION }}"
+          title: Release v${{ env.VERSION }}
+          prerelease: false
+          files: |
+            resume-1/cv-john-doe.pdf
+            resume-2/one-pager-john-doe.pdf
+            assessment/assessment.pdf
+          
