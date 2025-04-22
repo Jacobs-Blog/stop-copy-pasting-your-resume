@@ -23,7 +23,7 @@ jobs:
       - name: Generate resume
         uses: tonynv/asciidoctor-action@v2
         with:
-          program: generate.sh
+          program: "./resume-1/generate.sh"
 
       - name: Generate one-pager
         uses: tonynv/asciidoctor-action@v2
