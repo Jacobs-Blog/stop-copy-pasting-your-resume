@@ -18,24 +18,30 @@ Believes great tooling beats great formatting—and AsciiDoc proves it.
 
 == Experience
 
-Senior Software Engineer
-RocketTech Inc. · 2020–Present
-	•	Introduced AsciiDoc-based workflows for resume and assessment automation
-	•	Built internal tools for developer onboarding and documentation pipelines
+*Senior Software Engineer* - RocketTech Inc. +
+2020 - Present
+ 
+- Introduced AsciiDoc-based workflows for resume and assessment automation
+- Built internal tools for developer onboarding and documentation pipelines
 
-Technical Consultant
-DevWare Solutions · 2015–2020
-	•	Delivered backend systems for enterprise clients using Java and Python
-	•	Helped teams transition from Markdown to AsciiDoc for structured documentation
+*Technical Consultant* - DevWare Solutions +
+2015–2020
+ 
+- Delivered backend systems for enterprise clients using Java and Python
+- Helped teams transition from Markdown to AsciiDoc for structured documentation
 
-Software Engineer
-CodeWorks Inc. · 2008–2015
-	•	Maintained and modernized legacy systems
-	•	Led internal tooling improvements and documentation cleanup efforts
+*Software Engineer* - CodeWorks Inc. +
+2008–2015
+ 
+- Maintained and modernized legacy systems
+- Led internal tooling improvements and documentation cleanup efforts
 
 a|
 
 a|
+== Who I Am
+image::john-doe.jpeg[align='center', pdfwidth="100"]
+
 == Strengths
 
 *Documentation Automation* – Turns documents into versioned, repeatable workflows using AsciiDoc and Git.
@@ -52,12 +58,6 @@ a|
 * Asciidoc 
 * Git 
 * CI/CD (Github Actions)
-
-== Personal
-
-* Enjoys long talks
-* Coffee enthusiast
-* Loves building things with LEGO
 
 |===
 
