@@ -14,7 +14,7 @@ Simple, plain. No theming, no styling, just a siple document.
 
 A one-pager with a custom style, using columns. 
 
-![example](./resume-2/example.png?v=2)
+![example](./resume-2/example.png)
 
 ### Assessment
 
